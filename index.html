@@ -9,14 +9,16 @@
     <title> Bootstrap Cheat Sheet !</title>
 
     <!-- Bootstrap CSS -->
-    <link  href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     
   </head>
   <body>
+
   <!-- Typography -->
 
    <div class="container">
+    <!-- H1 KAJ KORE NAI-->
+   
        <h1 class="page-header"> Hello, world! 
        <small> Secondary Text </small>  </h1>
        <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -27,21 +29,135 @@
        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
        <hr>
-       <!-- Alignment -->
-       <p class=" text-left"> Left aligned text. </p>
-       <p class="text-center"> Center aligned text. </p>
-       <p class="text-right"> Right aligned text. </p>
+
+       <!-- Alignment & Transformatio -->
+
+       <p class=" text-left text-lowercase"> Left aligned text. </p>
+       <p class="text-center text-uppercase"> Center aligned text. </p>
+       <p class="text-right text-capitalize"> Right aligned text. </p>
        <p class="text-justify"> Justify aligned text. </p>
        <p class="text-warp"> No warp text. </p>
 
+       <!-- Quick FLOATS-->
+      
+      <!-- div KAJ KORE NA -->
+       <div class="pull-right"> Div floated to right </div>
+      <div class="pull-left"> Div floated to left </div>
+
+      <!-- Clear Float-->
+      <div class="clearfix"></div>
+      <hr>
+
+      <!--BlockQuote-->
+
+      <!-- REVERSE Kaj kore nai-->
+      <blockquote class="blockquote-reverse"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. </p>
+
+      <footer> Quote by <cite title="Irin Ove"> Irin Ove</cite></footer>
+
+      </blockquote>
+      <hr>
+
+      <!-- LIST-->
+      <!-- ul class kaj kore na-->
+
+       <ul class="list-unstyle">
+           <li> Item One </li>
+           <li> Item Two </li> 
+           <li> Item Three </li>
+           <li> Item Four  </li>
+       </ul>
+
+       <ul class="list-inline">
+           <li> Item One </li>
+           <li> Item Two </li> 
+           <li> Item Three </li>
+           <li> Item Four  </li>
+       </ul>
+
+       <!-- CODE-->
+       <code>&lt;h1&gt;Heading Text&lt;/h1&gt;
+       </code>
+       <br>
+       Change directory with <kbd> cd </kbd>
+       <br>
+       To edit settings,press <kbd><kbd>ctrl</kbd> + <kbd>, </kbd> </kbd>
+
+       <hr>
+
+       <!-- Contextual Colors-->
+
+       <p class="text-primary"> Hello World</p>
+       <p class="text-success"> Hello World</p>
+       <p class="text-info"> Hello World</p>
+       <p class="text-warning"> Hello World</p>
+       <p class="text-danger"> Hello World</p>
+       <p class="text-muted"> Hello World</p>
+
+        <!-- Contextual BackgroundColors-->
+
+       <p class="bg-primary"> Hello World</p>
+       <p class="bg-success"> Hello World</p>
+       <p class="bg-info"> Hello World</p>
+       <p class="bg-warning"> Hello World</p>
+       <p class="bg-danger"> Hello World</p>
+       <p class="bg-muted"> Hello World</p>
+
     </div>
 
-    <!-- Optional JavaScript -->
+    <hr>
+
+    <div class="container">
+     <!--Button-->
+     <button class="btn btn-default"> Button 
+     </button>
+     <a href="#" class="btn btn-default"          role="button"> Link </a>
+     <input type="submit" class="btn btn-default" value="Submit">
+    <br>
+   
+    <!-- COntextual Button-->
+      <button class="btn btn-default"> Default 
+     </button>
+     <button class="btn btn-primary"> Primary 
+     </button>
+     <button class="btn btn-success"> Success 
+     </button>
+     <button class="btn btn-info"> Info 
+     </button>
+     <button class="btn btn-warning"> Warning
+     </button>
+     <button class="btn btn-danger"> Delete
+     </button>
+     <button class="btn btn-link"> Link
+     </button>
+     <br>
+
+     <!-- Buttons Sizes-->
+     <button class="btn btn-default btn-lg"> Default 
+     </button>
+     <button class="btn btn-default"> Default 
+     </button>
+     <button class="btn btn-primary btn-sm"> Default 
+     </button>
+     <button class="btn btn-default btn-xs" 
+     disabled="disabled"> Default 
+     </button>
+      
+    </div>
+
+    <div style="height: 400px"></div>
+
+   
+
+  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-   <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
-    <script src="js/bootstrap.min.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   </body>
+  
 </html>
+
